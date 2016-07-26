@@ -1,0 +1,395 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/******************************************/
+/***************PAGE ACCEUIL***************/
+/*****************************************/
+
+body{
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  background-image: url('../img/fond.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+/******************************************/
+/******************HEADER*****************/
+/*****************************************/
+
+.acceuil{
+  height: 200px;
+  width: 100%;
+  background-color: rgba(102, 102, 102, 0.4);
+}
+
+
+
+.acceuil{
+  height: 450px;
+  width: 100%;
+
+}
+
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+  width: 100%;
+
+}
+
+ ul li{
+
+  font-size: 2em;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+
+}
+
+li a{
+  color: white;
+  text-decoration: underline;
+
+}
+
+.portfolio{
+
+  font-size: 6em;
+  color: white;
+  text-align: center;
+
+}
+
+a:hover{
+  color: white;
+}
+
+.container-index{
+  display: none;
+}
+
+.selected{
+  color: grey;
+}
+/******************************************/
+/******************FOOTER*****************/
+/*****************************************/
+hr{
+  width: 40%;
+  margin-top: 50px;
+
+}
+
+.copyright{
+  text-align: center;
+  color: rgba(204, 204, 204, 0.6);
+}
+
+.initiale{
+  font-size: 6em;
+  text-align: center;
+  color: white;
+}
+
+
+/******************************************/
+/************MEDIA QUERIES*****************/
+/*****************************************/
+
+@media screen and (max-width: 1030px){
+/******************************************/
+/******************HEADER*****************/
+/*****************************************/
+
+ul{
+  display: none;
+}
+
+.container{
+  display: block;
+  padding-top: 20px;
+  font-size: 2em;
+}
+
+a{
+  color: #333333;
+}
+
+.glyphicon{
+  margin-right:10px;
+}
+
+.panel-body{
+  padding:0px;
+}
+
+.panel-body table tr td{
+  padding-left: 15px;
+  color: grey;
+}
+
+.panel-body .table{
+  margin-bottom: 0px;
+}
+
+.panel-title{
+  height: 40px;
+  font-size: 1.2em;
+}
+}
+
+/******************************************/
+/**************PAGE ACCEUIL END***********/
+/*****************************************/
+
+
+/******************************************/
+/**************PAGE ABOUT******************/
+/*****************************************/
+
+
+/******************************************/
+/******************HEADER******************/
+/*****************************************/
+.about{
+  width: 100%;
+
+}
+
+/******************************************/
+/******************SECTION*****************/
+/*****************************************/
+.xavier{
+
+  width: 740px;
+  text-align: justify;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.wrapper{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+  display: flex;
+
+  font-size: 1.5em;
+}
+
+.nom{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.img-xav{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+
+}
+
+
+/******************************************/
+/************MEDIA QUERIES*****************/
+/*****************************************/
+
+@media screen and (max-width: 700px){
+
+.xavier{
+  margin-left: 10px;
+}
+
+
+}
+
+/******************************************/
+/************PAGE ABOUT END****************/
+/*****************************************/
+
+
+
+/******************************************/
+/***************PAGE CONTACT***************/
+/*****************************************/
+
+.contactez{
+  color: white;
+  font-size: 6em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input{
+  margin-bottom: 10px;
+  height: 40px;
+  width: 400px;
+  margin-right: 10px;
+  border: 0px;
+  background-color: lightgrey;
+}
+
+textarea{
+  width: 400px;
+  height: 150px;
+  margin-right: 10px;
+  background-color: lightgrey;
+
+
+}
+
+button{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #6D3750;
+  border: 0px;
+  color: white;
+}
+
+#message{
+  width: 600px;
+  height: 250px;
+  margin-left: 10px;
+  border: 0px;
+  background-color: lightgrey;
+}
+
+#question{
+  border: 0px;
+}
+
+.second-wrapper{
+  display: flex;
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+
+.medias{
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+/******************************************/
+/****************** WORK ******************/
+/*****************************************/
+.work{
+  display: flex;
+  width: 920px;
+  height: 610px;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.item{
+  border-radius: 5px;
+  width: 300px;
+  opacity: 0.9;
+}
+
+.describe{
+  width: 180px;
+  height: 299px;
+  background-color: white;
+  text-align: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+article{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.real{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.item:hover{
+  opacity: 1;
+}
+/******************************************/
+/************MEDIA QUERIES*****************/
+/*****************************************/
+@media screen and (max-width: 1033px){
+
+
+  .second-wrapper{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 550px;
+  }
+  #message{
+    margin-left: 0px;
+    width: 400px;
+  }
+form{
+  display: block;
+  max-width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 920px){
+
+.work{
+  width: 610px;
+  height: 920px;
+}
+
+}
+
+@media screen and (max-width: 610px){
+
+.work{
+  width: 300px;
+  height: 1860px;
+}
+}
+
+/******************************************/
+/*******PAGE ABDIFATAH & XAVIER END*******/
+/*****************************************/
